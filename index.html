@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <base target="_self">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcélio Soluções em Serviços Técnicos - Eletricista e Ar-Condicionado em Natal RN</title>
+    <meta name="description" content="Marcélio Soluções em Serviços Técnicos - Eletricista especializado em montagem e higienização de ar-condicionados em Natal, Parnamirim e região. Serviços profissionais com garantia.">
+    <meta name="keywords" content="eletricista natal, ar-condicionado natal, montagem ar-condicionado, higienização ar-condicionado, serviços técnicos natal, parnamirim eletricista">
+    <meta name="author" content="Marcélio Soluções em Serviços Técnicos">
+    <link rel="icon" type="image/x-icon" href="https://picsum.photos/32?random=100">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#1e40af",
+                        secondary: "#3b82f6",
+                        accent: "#10b981"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+                        <i class="fas fa-tools text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-800">Marcélio Soluções</h1>
+                        <p class="text-sm text-gray-600">Serviços Técnicos</p>
+                    </div>
+                </div>
+                
+                <nav class="flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a href="#servicos" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Serviços</a>
+                    <a href="#sobre" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Sobre</a>
+                    <a href="#contato" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Especialista em Ar-Condicionados</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Serviços profissionais de eletricista com especialização em montagem e higienização de ar-condicionados
+            </p>
+            <div class="mb-8">
+                <p class="text-lg mb-2">Atendemos em:</p>
+                <p class="text-xl font-semibold">Natal RN, Parnamirim e Região</p>
+            </div>
+            <button onclick="openWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg">
+                <i class="fab fa-whatsapp mr-2"></i>
+                Fale Conosco no WhatsApp
+            </button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Nossos Serviços</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Eletricista -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-bolt text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-800 mb-3">Serviços de Eletricista</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Instalações elétricas
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Manutenção preventiva
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Reparos emergenciais
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Montagem Ar-Condicionado -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-snowflake text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-800 mb-3">Montagem de Ar-Condicionado</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Instalação profissional
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Dimensionamento correto
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Garantia no serviço
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Higienização Ar-Condicionado -->
+                <div class="bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4 mx-auto">
+                        <i class="fas fa-wind text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center text-gray-800 mb-3">Higienização de Ar-Condicionado</h3>
+                    <ul class="text-gray-600 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Limpeza completa
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Desinfecção profissional
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            Melhoria da qualidade do ar
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img 
+                        src="https://picsum.photos/500/400?random=101" 
+                        alt="Técnico especializado em ar-condicionados trabalhando" 
+                        class="w-full rounded-lg shadow-lg"
+                        loading="lazy"
+                    >
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Sobre a Empresa</h2>
+                    <p class="text-gray-600 mb-4 text-lg">
+                        A <strong>Marcélio Soluções em Serviços Técnicos</strong> é uma empresa especializada em serviços de eletricista com foco em ar-condicionados.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Com anos de experiência no mercado, oferecemos soluções completas em montagem e higienização de ar-condicionados para residências e empresas em Natal, Parnamirim e região.
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
+                        <p class="text-blue-800 font-semibold">
+                            <i class="fas fa-star mr-2"></i>
+                            Especialização em Ar-Condicionados
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Entre em Contato</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-gray-50 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Informações de Contato</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fab fa-whatsapp text-green-500 text-xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold">WhatsApp</p>
+                                <p class="text-gray-600">(84) 99992-3240</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-red-500 text-xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold">Área de Atuação</p>
+                                <p class="text-gray-600">Natal RN, Parnamirim e Região</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-tools text-blue-500 text-xl mr-3"></i>
+                            <div>
+                                <p class="font-semibold">Especialização</p>
+                                <p class="text-gray-600">Ar-Condicionados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 rounded-lg p-6">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Pronto para Atendê-lo</h3>
+                    <p class="text-gray-600 mb-4">
+                        Entre em contato via WhatsApp para orçamentos, dúvidas ou agendamento de serviços.
+                    </p>
+                    <button onclick="openWhatsApp()" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                        <i class="fab fa-whatsapp mr-2"></i>
+                        Iniciar Conversa
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Marcélio Soluções</h3>
+                    <p class="text-gray-300">
+                        Serviços técnicos especializados em eletricista e ar-condicionados.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Serviços</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li>Eletricista Residencial</li>
+			<li>Eletricista Predial</li>
+                        <li>Montagem de Ar-Condicionado</li>
+                        <li>Higienização de Ar-Condicionado</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Localização</h3>
+                    <p class="text-gray-300">
+                        Natal - RN<br>
+                        Parnamirim - RN<br>
+                        Região Metropolitana
+                    </p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-300">
+                <p>&copy; 2025 Marcélio Soluções em Serviços Técnicos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <button onclick="openWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all transform hover:scale-110">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </button>
+    </div>
+
+    <script>
+        // WhatsApp function
+        function openWhatsApp() {
+            const phoneNumber = "5584999923240";
+            const message = "Olá! Vi seu anúncio no Google e gostaria de agendar um serviço de eletricista ou ar-condicionado.";
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, "_blank");
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
